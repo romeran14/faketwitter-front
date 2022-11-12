@@ -1,0 +1,55 @@
+.Tendencias {
+    padding: 10px;
+    border-left: 1px #e2e8f0 solid;
+    margin: 0 !important;
+
+
+    @media only screen and (max-width: 980px) {
+        display: none;
+    }
+
+    .graybg {
+        max-width: 350px;
+        min-width: 290px;
+        background-color: rgb(247, 249, 249);
+        border-radius: 16px;
+        position: sticky;
+        top: 15px;
+    }
+
+    .tendencies-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 16px;
+    }
+
+    p.toptext {
+        font-size: 13px;
+        color: #536471;
+    }
+
+    p.text {
+        color: rgb(15, 20, 25);
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    h3 {
+
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: capitalize;
+        padding-left: 16px;
+        padding-top: 12px;
+
+    }
+
+    a.show-more {
+        font-size: 15px;
+        padding-left: 16px;
+        padding-bottom: 12px;
+        color: #1D9BF0;
+        display: block;
+    }
+}

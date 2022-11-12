@@ -1,0 +1,222 @@
+.tweetViewBody {
+    padding-inline: 20px;
+    .mention {
+        color: #1DA1F2;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+    }
+
+    .topbox {
+        display: flex;
+        align-items: center;
+        color: #536471;
+        font-size: 13px;
+        font-weight: bold;
+        margin-bottom: 10px;
+
+        .right-piece {
+            margin-left: 15px;
+        }
+    }
+
+    .left-piece {
+        display: flex;
+    }
+
+    .head-tweet {
+        display: flex;
+        margin-left: 10px;
+        flex-direction: column;
+        justify-content: center;
+
+        h5 {
+            font-weight: bold;
+            line-height: 20px;
+            font-size: 15px;
+        }
+
+        p {
+            font-size: 15px;
+            color: #536471;
+            line-height: 0.8rem;
+        }
+    }
+
+    .date-tweet {
+        font-size: 15px;
+        color: #536471;
+        border-bottom: rgb(239, 243, 244) 1px solid;
+        padding: 10px 0;
+        display: block;
+    }
+
+    svg.closeBtn {
+        color: #536471;
+    }
+
+    .socialStadistics {
+        display: flex;
+        padding: 10px 0;
+        border-bottom: rgb(239, 243, 244) 1px solid;
+    }
+
+    .ownerTwInfo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .right-piece {
+            margin-left: 10px;
+        }
+    }
+
+    p.text-tweet {
+        font-size: 23px;
+        color: #0F1419;
+        padding: 10px 0;
+        padding-bottom: 0;
+    }
+
+    p.stadistic {
+        font-size: 14px;
+        color: #536471;
+        margin-right: 30px;
+
+        span {
+            color: #0F1419;
+            font-weight: bold;
+        }
+    }
+
+    .socialoptions {
+        display: flex;
+        justify-content: space-around;
+        padding: 5px 0;
+        border-bottom: rgb(239, 243, 244) 1px solid;
+    }
+
+    .socialoptions svg {
+        color: rgb(83, 100, 113);
+        font-size: 25px;
+        transition: ease-in-out 0.3s;
+
+    }
+
+    .comments-icon,
+    .retweet-icon,
+    .like-icon {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        transition: ease-in-out 0.3s !important;
+
+        & path {
+            transition: ease-in-out 0.3s !important;
+        }
+    }
+
+
+    .comments-icon:hover {
+        background-color: #1da0f24b !important;
+        color: #1DA1F2 !important;
+        transition: ease-in-out 0.3s !important;
+        border-radius: 30px;
+
+        & path {
+            color: #1DA1F2 !important;
+            transition: ease-in-out 0.3s !important;
+        }
+    }
+
+    .retweet-icon:hover {
+        // background-color: #16b35d50 !important;
+        color: #16b35c !important;
+        transition: ease-in-out 0.3s !important;
+
+        //   border-radius: 30px;
+        & path {
+            color: #16b35c !important;
+            transition: ease-in-out 0.3s !important;
+        }
+    }
+
+    .retweet-icon-active {
+        // background-color: #16b35d50 !important;
+        color: #16b35c !important;
+
+
+        & path {
+            color: #16b35c !important;
+
+        }
+    }
+
+    .icon-bg {
+        padding: 10px;
+        border-radius: 30px;
+        transition: ease-in-out 0.3s !important;
+
+    }
+
+    .retweet-icon .icon-bg {
+        &:hover {
+            background-color: #16b35d50 !important;
+            transition: ease-in-out 0.3s !important;
+        }
+    }
+
+    .like-icon .icon-bg {
+        &:hover {
+            background-color: #e9347950 !important;
+            transition: ease-in-out 0.3s !important;
+        }
+    }
+
+
+
+    .like-icon:hover {
+        color: #e93479 !important;
+        transition: ease-in-out 0.3s !important;
+
+        //   border-radius: 30px;
+        & path {
+            color: #e93479 !important;
+            transition: ease-in-out 0.3s !important;
+        }
+    }
+
+    .like-icon-active {
+        // background-color: #16b35d50 !important;
+        color: #e93479 !important;
+
+
+        & path {
+            color: #e93479 !important;
+
+        }
+    }
+
+    .tweet-img {
+        // max-width: 350px;
+        // max-height: 350px;
+        width: 100%;
+
+        border: 1px solid rgb(239, 243, 244) 1px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+        // height: 400px;
+        // width: 400px;
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

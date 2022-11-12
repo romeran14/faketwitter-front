@@ -1,0 +1,15 @@
+#feed{
+    hr{
+        display:none;
+    }
+    max-width: 600px;
+}
+.feeds-container{
+    margin: 0 !important;
+
+    @media only screen and (max-width: 767px) {
+    width: 100%;
+    max-width: unset;
+    min-width: unset;
+    }
+}

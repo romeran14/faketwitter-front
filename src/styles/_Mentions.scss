@@ -1,0 +1,98 @@
+.inputTweets,.inputTweetsView{
+  width: 88%;
+    textarea{
+      outline: none;
+      all: unset !important;
+      position: absolute !important;
+      top: 0px !important; 
+      left: 0px !important;
+      max-width: 100% !important;
+      height: 70px !important;
+    //  background: yellow !important;
+      width: 100% !important;
+      word-break: normal !important;
+      overflow: hidden !important;
+
+    }/*
+    & > div > div > div {
+       height: 70px;
+      background-color: red;
+      
+  }*/
+    & > div > div strong{
+        color: #1DA1F2;
+        z-index: 2;
+        font-size: 16.0159px;
+        position: relative;
+        
+    }
+
+    ul{
+     
+        overflow: auto;
+        max-height: 400px;
+         max-width: 857px;
+          min-width: 300px;
+          box-shadow: rgb(101 119 134 / 20%) 0px 0px 15px, rgb(101 119 134 / 15%) 0px 0px 3px 1px;
+          padding-top: 5px;
+          li{
+            width: 100%;
+          }
+          .suggestion-item{
+            height: 64px;
+            box-sizing: border-box;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            z-index: 9999;
+            background-color: white;
+            img{
+                width: 45px;
+                height: 45px;
+                margin-inline: 15px;
+            }
+            h5{
+                font-weight: bold;
+                color: #0F1419;
+                font-size: 15px;
+                line-height: 1em;
+            }
+            p{
+                color: #536471;
+                font-size: 15px;
+            }
+          }
+          z-index: 999;
+          background-color: white;
+    }
+   .css-194lmyu{
+
+      display: none;
+    }
+    .iconbar{
+      margin-top: 20px;
+    border-top: 1px solid rgb(239, 243, 244);
+    padding-top: 10px;
+    svg{
+      margin-inline: 3px;
+    }
+    }
+    .imgIcon:hover{
+      background-color: #1da0f24b !important;
+      transition: ease-in-out 0.3s !important;
+      border-radius: 30px;
+      svg{
+        margin-inline: 0px;
+      }
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+    .notAbletoTweet{
+      background: #1da1f280;
+    cursor: unset;
+    }
+}

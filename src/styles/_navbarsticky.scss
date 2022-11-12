@@ -1,0 +1,9 @@
+.navbarsticky{
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    position: sticky;
+    top: 0;
+    height: 53px;
+    padding-left: 15px;
+    z-index: 999;
+}

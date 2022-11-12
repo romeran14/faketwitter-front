@@ -1,0 +1,72 @@
+.profile {
+  width: 100%;
+  max-width: 600px;
+  
+  height: 100%;
+  position: relative;
+  margin-inline: auto;
+  @media only screen and (max-width: 767px) {
+  max-width: unset;
+}
+  
+  .header {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    .username-box {
+      display: flex;
+      flex-direction: column;
+
+      .username {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+
+      .username span {
+        font-weight: 700;
+        font-size: 18px;
+      }
+    }
+
+    .tweets {
+      color: rgb(83, 100, 113);
+      line-height: 14px;
+      font-size: 13px;
+      font-weight: 400;
+    }
+  }
+  .img-banner {
+    height: 199px;
+    width: inherit;
+    object-fit: cover;
+    @media only screen and (max-width: 767px) {
+      height: 120px;
+  }
+  }
+  .user-img-default,
+  .user-img {
+    width: 145px;
+    height: 145px;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    border: 3px solid white;
+    @media only screen and (max-width: 767px) {
+      width: 80px;
+    height: 80px;
+    top: 140px;
+    left: 20px;
+  }
+  }
+  .backbtn,.navbarsticky{
+     background-color: unset;
+     backdrop-filter: unset;
+  }
+}

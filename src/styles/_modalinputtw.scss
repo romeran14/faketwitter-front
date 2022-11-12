@@ -1,0 +1,51 @@
+.chakra-modal__content {
+  border-radius: 16px;
+
+  .notAbletoTweet {
+    background: #1da1f280;
+    cursor: unset;
+  }
+
+  footer.chakra-modal__footer.css-k0waxj {
+    justify-content: space-between;
+  }
+
+  .tweetbtn {
+    max-width: 225px;
+  }
+
+  .tweetear {
+    @media only screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
+
+  .tweetbtn {
+
+    @media only screen and (max-width: 1200px) {
+      width: 50px !important;
+      height: 50px !important;
+      display: grid !important;
+      place-content: center !important;
+
+    }
+
+    @media only screen and (max-width:767px) {
+
+      position: absolute;
+      bottom: 70px;
+      right: 40px;
+    }
+  }
+
+  .tweetear {
+    display: none !important;
+  }
+
+  .pen path {
+    @media only screen and (min-width: 1200px) {
+      display: none;
+      color: transparent;
+    }
+  }
+}

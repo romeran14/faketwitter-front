@@ -1,0 +1,30 @@
+.verified-box{
+    padding: 15px;
+    .subtitle{
+       
+        font-size: 25px;
+        color: black;
+        font-weight: 700;
+        @media (min-width: 980px) and (max-width: 1199px){
+            font-size: 25px;
+          }
+          @media (min-width: 768px) and (max-width: 979px){
+            font-size: 20px;
+            line-height: 1.2em;
+          }
+          @media (max-width: 767px){
+            font-size: 18px;
+            line-height: 1.2em;
+            }
+}
+.login{
+    font-size: 25px;
+    @media (min-width: 980px) and (max-width: 1199px){
+        font-size: 18px;
+      }
+      @media (max-width: 767px){
+        font-size: 16px;
+        line-height: 1.1em;
+        }
+}
+}

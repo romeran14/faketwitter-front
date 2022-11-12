@@ -1,0 +1,56 @@
+.profileTools {
+    background-color: #ffffff;
+    height: 72px;
+    width: inherit;
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    padding: 12px 16px 16px 0px;
+    @media only screen and (max-width: 767px) {
+      padding-bottom: 0;
+      height: 50px;
+    }
+  
+    .btn-profile {
+      border: 1px solid #cfd9de;
+      height: 36px;
+      width: 112px;
+      border-radius: 100px;
+      font-size: 15px;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.3s ease;
+    }
+    .btn-profile:hover {
+      background-color: #e5e5e5a1;
+    }
+    .icon {
+      transition: all 0.3s ease;
+      width: 34px;
+      height: 34px;
+      border: 1px solid #cfd9de;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+    }
+    .icon:hover {
+      background-color: #cfd9de;
+    }
+    .followBtn {
+      transition: all 0.3s ease;
+      padding: 0 16px;
+      height: 36px;
+      border: 1px solid #cfd9de;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+      color: white;
+      background-color: black;
+    }
+  }

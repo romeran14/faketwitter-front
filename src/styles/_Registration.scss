@@ -1,0 +1,78 @@
+
+
+
+.register-box{
+    width: 100%;
+    max-width: 100% !important;
+    @media (max-width: 980px){
+        padding-bottom: 0;
+        padding-top: 0;
+        }
+
+    .subtitle{
+       
+            font-size: 31px;
+            color: black;
+            font-weight: 700;
+            @media (min-width: 980px) and (max-width: 1199px){
+                font-size: 25px;
+              }
+              @media (min-width: 768px) and (max-width: 979px){
+                font-size: 20px;
+                line-height: 1.2em;
+              }
+              @media (max-width: 767px){
+                font-size: 18px;
+                line-height: 1.2em;
+                }
+
+    
+    }
+    .half-box{
+        width: 75%;
+        margin-top: 10px !important;
+        @media (max-width: 979px){
+            width: 100%;
+           }
+    }
+
+    .signup{
+        font-size: 22px;
+        @media (min-width: 980px) and (max-width: 1199px){
+            font-size: 18px;
+          }
+          @media (max-width: 767px){
+            font-size: 16px;
+            line-height: 1.1em;
+            }
+    }
+    button.chakra-button {
+        margin-bottom: 10px;
+    }
+    .img-preview{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    label {
+        cursor: pointer;
+    }
+    .login{
+        font-size: 22px;
+        @media (max-width: 767px){
+            font-size: 18px;
+            line-height: 1.1em;
+            }
+    }
+
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+	cursor: pointer;
+}

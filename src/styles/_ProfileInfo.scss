@@ -1,0 +1,80 @@
+.profileinfo {
+  padding: 12px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+  @media only screen and (max-width: 767px) {
+    padding-top: 0px;
+    padding-inline: 16px;
+    gap: 1px;
+  }
+  .username {
+    margin-bottom: 10px;
+    span {
+      font-weight: 700;
+      font-size: 18px;
+    }
+    p {
+      color: rgb(83, 100, 113);
+      font-size: 15px;
+      line-height: 12px;
+    }
+  }
+  .description {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+  .inner-info {
+    line-height: 15px;
+    display: flex;
+    gap: 5px;
+    column-gap: 15px;
+    flex-wrap: wrap;
+    width: 77%;
+    margin-bottom: 10px;
+    @media only screen and (max-width: 767px) {
+    row-gap: 1px;
+
+    }
+    div {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+      justify-content: flex-start;
+      align-items: center;
+      a {
+        color: rgb(29, 155, 240);
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      p {
+        color: rgb(83, 100, 113);
+        font-size: 15px;
+      }
+      svg {
+        color: rgb(83, 100, 113);
+      }
+    }
+  }
+  .followers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    a {
+      font-size: 14px;
+      font-weight: 600;
+      color: black;
+      span {
+        color: rgb(83, 100, 113);
+        font-weight: 400;
+      }
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
