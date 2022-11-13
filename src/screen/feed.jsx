@@ -15,7 +15,7 @@ const FeedScreen = ({ loginState, FeedState }) => {
 
   //Probando cambio
   const dispatchFeed = useContext(FeedContext);
-  Axios.defaults.withCredentials = false;
+  Axios.defaults.withCredentials = true
 
   const SERVER_URL = process.env.REACT_APP_SERVER_URL
 
