@@ -8,7 +8,7 @@ import AnimatedRoutesAuth from "./components/AnimatedRoutesAuth";
 
 
 function  App() {
-  Axios.defaults.withCredentials = true
+  Axios.defaults.withCredentials = false
    const SERVER_URL = process.env.REACT_APP_SERVER_URL
   
    //Implementando LoginReducer
