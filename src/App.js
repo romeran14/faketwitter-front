@@ -92,7 +92,7 @@ function  App() {
   useEffect(() => {
     Axios.get(`${SERVER_URL}user/login`).then((response) => {
       if (response.data.loggedIn === true) {
-        console.log('verificacion de sesion',response.data);
+        
         dispatch({
           type: "RESTORE_TOKEN",
           token: response.data.loginResponse.Username,
