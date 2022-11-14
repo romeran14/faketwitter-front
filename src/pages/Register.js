@@ -43,7 +43,7 @@ export default function Register() {
   const SERVER_URL = process.env.REACT_APP_SERVER_URL
 
 
-  Axios.defaults.withCredentials = true
+  Axios.defaults.withCredentials = false
 
   const register = () => {
     setLoading(true)

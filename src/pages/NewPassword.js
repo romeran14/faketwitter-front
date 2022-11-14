@@ -16,7 +16,7 @@ const NewPassword = () => {
     const [errorMessage, setErrorMessage] = useState(null)
     const [passwordChanged, SetPasswordChanged] = useState(false)
     const { isOpen, onToggle } = useDisclosure()
-    Axios.defaults.withCredentials = true
+    Axios.defaults.withCredentials = false
 
     const SERVER_URL = process.env.REACT_APP_SERVER_URL
 
