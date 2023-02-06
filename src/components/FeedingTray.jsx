@@ -30,7 +30,7 @@ const FeedingTray = ({FeedState, loginState, twMother, userFeed}) => {
 
 
     if(location.pathname === '/home'){
-      baseUrl = 'upload/'
+      baseUrl = 'upload'
       limitSup=15;
     }
     if(userFeed){
